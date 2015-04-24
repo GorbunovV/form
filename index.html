@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div class="button">
+            <button type="button" data-toggle="modal" data-target="#myModal">Зарегистрироваться</button>
+        </div>
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <ul class="nav nav-tabs" role="tablist" id="myTab">
+                                    <li role="presentation" class="active"><a href="#user" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-user fa-5x"></i></a></li>
+                                    <li role="presentation"><a href="#photo" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-picture-o fa-5x"></i></a></li>
+                                    <li role="presentation"><a href="#pass" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-check fa-5x"></i></a></li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-md-12">
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="user">
+                                    <form class="form-inline">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class=" name">
+                                                    <label>Имя</label>
+                                                    <input type="text" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="family">
+                                                    <label>Фамилия</label>
+                                                    <input type="text" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="email">
+                                                    <label>Эл. почта</label>
+                                                    <input type="email" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="pass">
+                                                    <label>Пароль</label>
+                                                    <input type="password" requireds>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit">111111</button>
+                                    </form>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="photo">
+                                    <div class="col-md-12">
+                                        <div class="photo">
+                                            <label>Загрузить изображение</label>
+                                            <i class="fa fa-picture-o fa-5x"></i>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="pass">
+                                    <div class="col-md-12">
+                                        <div class="pass_c">
+                                            <label>Подтвердите пароль</label>
+                                            <input type="password" requireds>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="button_c" data-dismiss="modal">Отмена</button>
+                        <button type="button" class="button_b">Назад</button>
+                        <button type="button" class="button_n">Продолжить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
